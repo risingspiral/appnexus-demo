@@ -1,4 +1,4 @@
-# appnexus-demo [![Build Status](https://travis-ci.org/totem/appnexus-demo.svg)](https://travis-ci.org/totem/scholastic-demo)
+# appnexus-demo [![Build Status](https://travis-ci.org/totem/appnexus-demo.svg)](https://travis-ci.org/totem/scholastic-demo) [![Coverage Status](https://coveralls.io/repos/totem/appnexus-demo/badge.svg)](https://coveralls.io/r/totem/appnexus-demo)
 Totem demonstration for Appnexus
 
 # Demo Steps

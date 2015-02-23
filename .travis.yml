@@ -13,11 +13,11 @@ install:
 # commands to run tests and style check
 script:
   - flake8 .
-  - nosetests --with-coverage --cover-erase --cover-branches --cover-package=scholastic
+  - nosetests --with-coverage --cover-erase --cover-branches --cover-package=demo
 
 after_success:
   - coveralls
 
 notifications:
   webhooks:
-    - http://orchestrator.r53.us-west-1.cu.melt.sh/external/hooks/travis
+    - https://orchestrator.elb.us-west-1.cu.melt.sh/external/hooks/travis
